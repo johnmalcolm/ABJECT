@@ -6,11 +6,6 @@ frameworkVersion: '3'
  
 resources:
   Resources:
-    AndersonsCluster:
-      Type: AWS::ECS::Cluster
-      Properties:
-        ClusterName: andersons_cluster
-
     AndersonsSecurityGroup:
       Type: AWS::EC2::SecurityGroup
       Properties:
@@ -22,33 +17,36 @@ resources:
             FromPort: 80
             ToPort: 80
             CidrIp: 0.0.0.0/0
-    
-    AndersonsEBSVolume:
-      Type: AWS::EC2::Volume
+
+    AndersonsCluster:
+      Type: AWS::ECS::Cluster
       Properties:
-        Size: 30
-        AvailabilityZone: eu-north-1
-        VolumeType: gp2
+        ClusterName: andersons_cluster
+
+    AndersonsClusterEC2Instance:
+      Type: AWS::EC2::Instance
+      Properties:
+        InstanceType: t3.micro
+        ImageId: ami-0cf72be2f86b04e9b
+        KeyName: andersons.space
+        SecurityGroupIds:
+          - !Ref AndersonsSecurityGroup
+        BlockDeviceMappings:
+          - DeviceName: /dev/sda1
+            Ebs:
+              VolumeSize: 30
+              VolumeType: gp2
+              DeleteOnTermination: false
         Tags:
           - Key: Name
-            Value: andersons_ebs-volume
-
-    EC2LaunchConfiguration:
-      Type: AWS::AutoScaling::LaunchConfiguration
-      Properties:
-        ImageId: ami-0b254a6f53fcf1a02  # Amazon Linux 2 AMI in eu-north-1
-        InstanceType: t3.micro
-        SecurityGroups:
-          - !Ref AndersonsSecurityGroup
+            Value: andersons.space
         UserData:
           Fn::Base64: !Sub |
             #!/bin/bash
             echo ECS_CLUSTER=${AndersonsCluster} >> /etc/ecs/ecs.config
-        BlockDeviceMappings:
-          - DeviceName: /dev/sdf
-            Ebs:
-              VolumeId: !Ref AndersonsEBSVolume
-              DeleteOnTermination: false
+            yum update -y
+            yum install -y aws-cli
+          # aws s3 cp s3://<your-ecs-config-bucket>/ecs.config /etc/ecs/ecs.config
 
   Outputs:
     ECSClusterName:
