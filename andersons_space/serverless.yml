@@ -1,0 +1,55 @@
+service: andersons-space
+provider: 
+  name: aws
+  region: eu-north-1
+frameworkVersion: '3'
+ 
+resources:
+  Resources:
+    AndersonsCluster:
+      Type: AWS::ECS::Cluster
+      Properties:
+        ClusterName: andersons_cluster
+
+    AndersonsSecurityGroup:
+      Type: AWS::EC2::SecurityGroup
+      Properties:
+        GroupDescription: Allow HTTP traffic to the ECS instances
+        GroupName: andersons_security-group
+        VpcId: vpc-0a1a9acefbe3de0b7
+        SecurityGroupIngress:
+          - IpProtocol: tcp
+            FromPort: 80
+            ToPort: 80
+            CidrIp: 0.0.0.0/0
+    
+    AndersonsEBSVolume:
+      Type: AWS::EC2::Volume
+      Properties:
+        Size: 30
+        AvailabilityZone: eu-north-1
+        VolumeType: gp2
+        Tags:
+          - Key: Name
+            Value: andersons_ebs-volume
+
+    EC2LaunchConfiguration:
+      Type: AWS::AutoScaling::LaunchConfiguration
+      Properties:
+        ImageId: ami-0b254a6f53fcf1a02  # Amazon Linux 2 AMI in eu-north-1
+        InstanceType: t3.micro
+        SecurityGroups:
+          - !Ref AndersonsSecurityGroup
+        UserData:
+          Fn::Base64: !Sub |
+            #!/bin/bash
+            echo ECS_CLUSTER=${AndersonsCluster} >> /etc/ecs/ecs.config
+        BlockDeviceMappings:
+          - DeviceName: /dev/sdf
+            Ebs:
+              VolumeId: !Ref AndersonsEBSVolume
+              DeleteOnTermination: false
+
+  Outputs:
+    ECSClusterName:
+      Value: !Ref AndersonsCluster
