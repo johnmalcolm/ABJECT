@@ -2,6 +2,7 @@ service: andersons-space
 provider: 
   name: aws
   region: eu-north-1
+  stage: production
 frameworkVersion: '3'
  
 resources:
@@ -12,11 +13,24 @@ resources:
         GroupDescription: Allow HTTP traffic to the ECS instances
         GroupName: andersons_security-group
         VpcId: vpc-0a1a9acefbe3de0b7
-        SecurityGroupIngress:
-          - IpProtocol: tcp
-            FromPort: 80
-            ToPort: 80
-            CidrIp: 0.0.0.0/0
+
+    AndersonsGroupIngressSSH:
+      Type: AWS::EC2::SecurityGroupIngress
+      Properties:
+        GroupId: !Ref AndersonsSecurityGroup
+        IpProtocol: tcp
+        FromPort: 22
+        ToPort: 22
+        CidrIp: 0.0.0.0/0
+
+    AndersonsGroupIngressHTTP:
+      Type: AWS::EC2::SecurityGroupIngress
+      Properties:
+        GroupId: !Ref AndersonsSecurityGroup
+        IpProtocol: tcp
+        FromPort: 80
+        ToPort: 80
+        CidrIp: 0.0.0.0/0
 
     AndersonsCluster:
       Type: AWS::ECS::Cluster
@@ -27,12 +41,12 @@ resources:
       Type: AWS::EC2::Instance
       Properties:
         InstanceType: t3.micro
-        ImageId: ami-0cf72be2f86b04e9b
+        ImageId: ami-0cf72be2f86b04e9b # Linux AMI 2 in eu-north-1
         KeyName: andersons.space
         SecurityGroupIds:
           - !Ref AndersonsSecurityGroup
         BlockDeviceMappings:
-          - DeviceName: /dev/sda1
+          - DeviceName: /dev/xvda
             Ebs:
               VolumeSize: 30
               VolumeType: gp2
@@ -46,7 +60,6 @@ resources:
             echo ECS_CLUSTER=${AndersonsCluster} >> /etc/ecs/ecs.config
             yum update -y
             yum install -y aws-cli
-          # aws s3 cp s3://<your-ecs-config-bucket>/ecs.config /etc/ecs/ecs.config
 
   Outputs:
     ECSClusterName:
