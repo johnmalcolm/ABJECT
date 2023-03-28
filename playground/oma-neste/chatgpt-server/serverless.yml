@@ -1,0 +1,13 @@
+service: oma-neste-chat-server
+provider: 
+  name: aws
+  region: eu-north-1
+  stage: production
+  runtime: nodejs18.x
+frameworkVersion: '3'
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi: '*'
