@@ -6,6 +6,7 @@ provider:
 frameworkVersion: '3'
  
 resources:
+  Description: ECS, EC2, 30GB EBS
   Resources:
     AndersonsSecurityGroup:
       Type: AWS::EC2::SecurityGroup
