@@ -1,4 +1,2 @@
-*.aux
-*.log
-*.pdf
 *.DS_Store
+*.env
