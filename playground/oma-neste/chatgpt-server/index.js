@@ -9,18 +9,17 @@ const { getSecret } = require("./aws-secrets");
 app.use(bodyParser.json());
 app.use(cors());
 
-async function openAiConnector(){
+app.use(async (req, res, next) => {
   const apiKey = await getSecret();
   const configuration = new Configuration({
     apiKey: apiKey,
   });
-  const openai = new OpenAIApi(configuration);
-  return openai;
-}
+  openai = new OpenAIApi(configuration);
+  next();
+});
   
 app.post('/chat', async(req, res) => {
   const { message } = req.body;
-  openai = await openAiConnector();
   const response = await openai.createCompletion({
       model: "text-davinci-003",
       prompt: `${message}`,
