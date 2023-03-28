@@ -4,6 +4,11 @@ provider:
   region: eu-north-1
   stage: production
   runtime: nodejs18.x
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - secretsmanager:GetSecretValue
+      Resource: arn:aws:secretsmanager:eu-north-1:849902243237:secret:OPENAI_API_KEY-TMyWNC
   httpApi:
     cors: true
 frameworkVersion: '3'
@@ -12,4 +17,4 @@ functions:
   api:
     handler: index.handler
     events:
-       - httpApi: 'POST /'
+       - httpApi: 'POST /chat'

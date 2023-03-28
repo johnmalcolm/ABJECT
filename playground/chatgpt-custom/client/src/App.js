@@ -29,7 +29,7 @@ function App() {
     setChatLog(chatLogNew);
     const messages = chatLogNew.map((message) => message.message).join("\n");
     // fetch response to the api combining the chat log array of messages and sending it as a message to localhost:3080 as a post
-    const response = await fetch('https://2kq2pkev2m.execute-api.eu-north-1.amazonaws.com/', {
+    const response = await fetch('https://2kq2pkev2m.execute-api.eu-north-1.amazonaws.com/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

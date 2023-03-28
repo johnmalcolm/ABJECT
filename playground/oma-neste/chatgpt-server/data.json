@@ -1,0 +1,9 @@
+{
+    "path": "/chat",
+    "httpMethod": "POST",
+    "headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+    },
+    "body": "{\"message\":\"What is the capital of france?\"}"
+}
