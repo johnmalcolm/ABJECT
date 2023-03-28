@@ -4,10 +4,12 @@ provider:
   region: eu-north-1
   stage: production
   runtime: nodejs18.x
+  httpApi:
+    cors: true
 frameworkVersion: '3'
 
 functions:
   api:
     handler: index.handler
     events:
-      - httpApi: '*'
+       - httpApi: 'POST /'
