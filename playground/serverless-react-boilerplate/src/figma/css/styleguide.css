@@ -1,0 +1,170 @@
+:root { 
+  --black: #000000;
+  --danube: #6799db;
+  --granite-gray: #666666;
+  --lima: #62bb21;
+  --mercury: #e0e3e4;
+  --mine-shaft: #333333;
+  --mountain-mist: #999999;
+  --pumice: #c4c8c8;
+  --smalt: #003c96;
+  --tropical-rain-forest: #007452;
+  --white: #ffffff;
+  --wild-sand: #f4f4f4;
+ 
+  --font-size-l: 16px;
+  --font-size-m: 15px;
+  --font-size-s: 13.6px;
+  --font-size-xl: 20px;
+  --font-size-xs: 12.8px;
+  --font-size-xxl: 24px;
+  --font-size-xxs: 12px;
+ 
+  --font-family-arial-bold: "Arial-Bold", Helvetica;
+  --font-family-arial-italic: "Arial-Italic", Helvetica;
+  --font-family-arial-regular: "Arial-Regular", Helvetica;
+  --font-family-helvetica_neue-light: "Helvetica Neue-Light", Helvetica;
+  --font-family-helvetica_neue-medium: "Helvetica Neue-Medium", Helvetica;
+}
+.arial-regular-normal-mine-shaft-12-8px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helveticaneue-light-mine-shaft-15px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-helvetica_neue-light);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.helveticaneue-light-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-helvetica_neue-light);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.helveticaneue-light-mine-shaft-20px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-helvetica_neue-light);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.arial-regular-normal-smalt-12-8px {
+  color: var(--smalt);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helveticaneue-light-mine-shaft-24px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-helvetica_neue-light);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.helveticaneue-medium-mine-shaft-15px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-helvetica_neue-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.arial-regular-normal-granite-gray-13-6px {
+  color: var(--granite-gray);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arial-bold-white-12-8px {
+  color: var(--white);
+  font-family: var(--font-family-arial-bold);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.arial-bold-mine-shaft-13-6px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-arial-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.helveticaneue-light-tropical-rain-forest-20px {
+  color: var(--tropical-rain-forest);
+  font-family: var(--font-family-helvetica_neue-light);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.arial-regular-normal-granite-gray-12-8px {
+  color: var(--granite-gray);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arial-regular-normal-granite-gray-12px {
+  color: var(--granite-gray);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helveticaneue-light-smalt-16px {
+  color: var(--smalt);
+  font-family: var(--font-family-helvetica_neue-light);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.arial-bold-white-13-6px {
+  color: var(--white);
+  font-family: var(--font-family-arial-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.arial-regular-normal-white-12-8px {
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arial-regular-normal-mountain-mist-12-8px {
+  color: var(--mountain-mist);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helveticaneue-light-tropical-rain-forest-16px {
+  color: var(--tropical-rain-forest);
+  font-family: var(--font-family-helvetica_neue-light);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+}

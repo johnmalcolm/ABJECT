@@ -1,0 +1,57 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/64242c1c51a8c51f21b923b1.64242c1d0f194b70b22875bc.koC3FCL.hcp.png");
+
+@font-face {
+  font-family: "Helvetica Neue-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/HelveticaNeue-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Arial-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Arial regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Arial-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/FontsFree-Net-arial-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetica Neue-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/HelveticaNeueMed.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Arial-Italic";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/Arial Italic.ttf") format("truetype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}

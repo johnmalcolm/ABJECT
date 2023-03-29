@@ -6,7 +6,6 @@ import DashboardPrototype from './components/dashboardPrototype';
 import ApuriBtn from './components/ApuriBtn';
 function App() {
   return (
-    // group below components togethe
     <div className="App">
       <header className='demo-header'>
         <h1>Neste Oma Apuri Demo</h1>
