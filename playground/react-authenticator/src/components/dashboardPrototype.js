@@ -15,7 +15,7 @@ const DashboardPrototype = () => {
   return (
     isAuthenticated && (
       // render the HTML content using dangerouslySetInnerHTML
-      <div>
+      <div class="dashboard-proto">
         <input
           type="hidden"
           id="anPageName"
