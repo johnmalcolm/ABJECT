@@ -1,15 +1,12 @@
 import "./App.css";
-
 import * as React from "react";
-
 import useConfig from "./components/useConfig";
 import logo from "./logo.svg";
-
 import LoginButton from './components/loginButton';
 import LogoutButton from './components/logoutButton';
 import DashboardPrototype from './components/dashboardPrototype';
 import ApuriBtn from './components/ApuriBtn';
-
+import Apuri from './components/Apuri';
 import { Auth0Provider } from "@auth0/auth0-react";
 
 /**
@@ -17,6 +14,12 @@ import { Auth0Provider } from "@auth0/auth0-react";
  */
 export default function App() {
   const config = useConfig();
+
+  const [apuri, setApuri] = React.useState(false);
+  const toggleApuri = () => {
+    setApuri(!apuri);
+  }
+  
   return (
   <Auth0Provider
     domain='dev-wodn7nbigr7lzvoo.us.auth0.com'
@@ -34,8 +37,8 @@ export default function App() {
         </div>
       </header>
       <DashboardPrototype />
-      <ApuriBtn />
-      {/* <div className="chatbox"></div> */}
+      <ApuriBtn onClick={toggleApuri} />
+      {apuri && <Apuri />}
     </div>
   </Auth0Provider>
   );

@@ -3,14 +3,99 @@
   src: url('Manrope/Manrope-Light.ttf') format('truetype');
 }
 
-.chatbox{
+.chatbox-outer{
   width: 35vw;
   height: 80%;
-  background-color: black;
   position: fixed;
   right: 15px;
-  bottom: 100px;
+  bottom: 90px;
 }
+
+.chatbox-container{
+  text-align: center;
+  display: flex;
+  background-color: white;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  color: white;
+  border-radius: 10px;
+}
+
+.chatbox{
+  flex: 1; 
+  border-radius: 10px;
+  /* background-color: #343541; */
+  position: relative;
+}
+
+.chat-input-holder{
+  padding: 24px;
+  position: absolute;
+  left: 0; right: 0;
+  bottom: 0;
+  size: 90%;
+}
+
+.chat-input-textarea{
+  border-radius: 10px;
+  background-color: #F4F4F4;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 12px;
+  font-size: 1em;
+}
+
+.chat-log{
+  text-align: left;
+}
+
+.chat-message{
+  background-color: #61BB20;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.chat-message.chatgpt{
+  background-color: #003C95;
+}
+
+.chat-message-center{
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.avatar{
+  background: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.avatar.chatgpt{
+  background-color: rgb(16, 163, 127);
+}
+
+.avatar.chatgpt svg{
+  transform: scale(0.75);
+}
+
+.message{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
 
 body{
   height: 100%;
@@ -20,7 +105,7 @@ body{
 .App {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .demo-header{
@@ -38,7 +123,6 @@ body{
 .dashboard-proto{
   z-index: -100;
   background-color: white;
-  margin-left: 30px;
   margin-top: 90px;
   display: flex;
 }
