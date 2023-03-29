@@ -17,6 +17,7 @@ function App() {
       </header>
       <DashboardPrototype />
       <ApuriBtn />
+      <div class="chatbox"></div>
     </div>
   );
 }

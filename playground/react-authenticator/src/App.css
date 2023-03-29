@@ -3,6 +3,15 @@
   src: url('Manrope/Manrope-Light.ttf') format('truetype');
 }
 
+.chatbox{
+  width: 35vw;
+  height: 80%;
+  background-color: black;
+  position: fixed;
+  right: 15px;
+  bottom: 100px;
+}
+
 body{
   height: 100%;
   background-color: #E1DCD7;
@@ -15,20 +24,22 @@ body{
 }
 
 .demo-header{
+  position: fixed;
   padding: 15px;
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 80px;
+  height: 60px;
   width: 100%;
   background-color: #084A41;
 }
 
 .dashboard-proto{
+  z-index: -100;
   background-color: white;
-  margin-left: 40px;
-  margin-top: 30px;
+  margin-left: 30px;
+  margin-top: 90px;
   display: flex;
 }
 
@@ -59,16 +70,12 @@ header .btn{
 header h1{
   display: flex;
   font-family: "Manrope", Arial,Helvetica,sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 2;
+  line-height: 1.5;
   margin: 0px;
   padding: 0px;
   padding-left: 5px;
-}
-
-.login-buttons{
-  padding-top: 10px;
 }
 
 .apuri-btn{
@@ -87,7 +94,7 @@ header h1{
 }
 
 .apuri-btn-pos{
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   right: 20px;
 }

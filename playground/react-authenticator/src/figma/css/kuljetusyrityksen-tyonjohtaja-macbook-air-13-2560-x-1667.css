@@ -3,7 +3,7 @@
 .kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 {
   align-items: flex-start;
   background-color: var(--wild-sand);
-  border: 1px solid grey;
+  border: 1px solid lightgray;
   display: flex;
   flex-direction: column;
   gap: 16px;
