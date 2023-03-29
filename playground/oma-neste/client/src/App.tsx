@@ -25,7 +25,7 @@ export default function App() {
     domain='dev-wodn7nbigr7lzvoo.us.auth0.com'
     clientId='WzqTRbnwVtX14YgFeGXbkTwXPoN1vDcT'
     authorizationParams={{
-      redirect_uri: 'https://2sq3j3h7ub.execute-api.eu-north-1.amazonaws.com/dev/'
+      redirect_uri: 'http://localhost:3000'
     }}
   >
     <div className="App">

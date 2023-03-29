@@ -30,10 +30,12 @@ app.post('/chat', async(req, res) => {
 })
 
 app.post('/chat3', async(req, res) => {
-  const {role, message} = req.body;
+  const messages = req.body;
+  console.log(messages);
+
   const completion = await openai.createChatCompletion({
     model: "gpt-3.5-turbo",
-    messages: [{role:role, content:message}],
+    messages: messages,
   });
   res.status(200).json({message:completion.data.choices[0].message});
 })

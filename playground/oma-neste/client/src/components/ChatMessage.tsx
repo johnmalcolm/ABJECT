@@ -2,10 +2,10 @@ import React from "react";
 
 const ChatMessage = ({message}) => {
     return (
-      <div className={`chat-message ${message.user === "gpt" && "chatgpt"}`}>
+      <div className={`chat-message ${message.role === "assistant" && "chatgpt"}`}>
               <div className="chat-message-center">
-                <div className={`avatar ${message.user === "gpt" && "chatgpt"}`}>
-                  {message.user == "gpt" && <svg
+                <div className={`avatar ${message.role === "assistant" && "chatgpt"}`}>
+                  {message.role == "assistant" && <svg
                   width={41}
                   height={41}
                   fill="none"
@@ -20,7 +20,7 @@ const ChatMessage = ({message}) => {
                 </svg>}
                 </div>
                 <div className="message">
-                  {message.message}
+                  {message.content}
                 </div>
               </div>
             </div>
