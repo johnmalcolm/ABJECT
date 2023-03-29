@@ -29,4 +29,13 @@ app.post('/chat', async(req, res) => {
   res.status(200).json({message:response.data.choices[0].text})
 })
 
+app.post('/chat3', async(req, res) => {
+  const {role, message} = req.body;
+  const completion = await openai.createChatCompletion({
+    model: "gpt-3.5-turbo",
+    messages: [{role:role, content:message}],
+  });
+  res.status(200).json({message:completion.data.choices[0].message});
+})
+
 module.exports.handler = serverless(app);
