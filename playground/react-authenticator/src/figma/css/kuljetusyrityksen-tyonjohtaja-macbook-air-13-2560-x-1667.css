@@ -1,0 +1,1807 @@
+/* screen - kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 */
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 {
+  align-items: flex-start;
+  background-color: var(--wild-sand);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 832px;
+  overflow: hidden;
+  width: 1280px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .flex-col {
+  flex-direction: column;
+  min-height: 381px;
+  width: 1355px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .header {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .pnavigointi {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  width: 1280px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-40 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--pumice);
+  display: flex;
+  flex: 1;
+  padding: 0px 0px 1px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .neste-logo {
+  height: 63px;
+  min-width: 192.08px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-29 {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  padding: 24px 13px 20px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .yksityisasiakkaat {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-110 {
+  align-self: stretch;
+  background-color: var(--white);
+  height: 4px;
+  min-width: 154px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .yritysasiakkaat {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-109 {
+  align-self: stretch;
+  background-color: var(--white);
+  height: 4px;
+  min-width: 143px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .oma-neste {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-arial-bold);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-108 {
+  align-self: stretch;
+  background-color: var(--smalt);
+  height: 4px;
+  min-width: 102px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .vastuulliset-ratkaisut {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-107 {
+  align-self: stretch;
+  background-color: var(--white);
+  height: 4px;
+  min-width: 194px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .konserni {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-106 {
+  align-self: stretch;
+  background-color: var(--white);
+  height: 4px;
+  min-width: 93px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-44 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--smalt);
+  display: flex;
+  gap: 22px;
+  justify-content: flex-end;
+  padding: 0px 22px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-4 {
+  align-items: center;
+  display: flex;
+  gap: 6px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .group {
+  background-color: var(--smalt);
+  height: 32px;
+  min-width: 32px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .icon-search {
+  height: 23px;
+  left: 5px;
+  width: 23px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .etsi {
+  color: var(--white);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .icon-cart {
+  height: 24px;
+  left: 2px;
+  width: 26px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .ostoskori {
+  color: var(--white);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .union {
+  height: 21px;
+  left: 4px;
+  position: absolute;
+  top: 5px;
+  width: 24px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .ulos {
+  color: var(--white);
+  font-family: var(--font-family-arial-italic);
+  font-size: var(--font-size-l);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .oma-neste-navigointi {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--wild-sand);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--pumice);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 27px 1px 14px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-39 {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-29-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  padding: 16px 13px 12px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .etusivu {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-108-1 {
+  align-self: stretch;
+  background-color: var(--smalt);
+  height: 4px;
+  min-width: 76px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .tilaukset {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-110-1 {
+  min-width: 80px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .laskut {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-110-2 {
+  min-width: 67px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .raportit {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-110-3 {
+  min-width: 74px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .maksuvlineet {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-110-4 {
+  min-width: 113px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .hinnat {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-110-5 {
+  min-width: 66px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-38-3 {
+  align-self: stretch;
+  padding: 10px 0px;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-162 {
+  align-self: stretch;
+  background-color: var(--pumice);
+  height: 28px;
+  min-width: 1px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .neste-my-hiilijalanjli-palvelu {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-110-6 {
+  min-width: 205px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-38 {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-1 {
+  align-items: center;
+  background-color: #c2d7f2;
+  border-radius: 6px;
+  display: flex;
+  gap: 10px;
+  padding: 8px 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .ilmoitukset {
+  color: var(--smalt);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .omat-tiedot {
+  color: var(--smalt);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-39-4 {
+  align-items: center;
+  background-color: var(--smalt);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 20px;
+  justify-content: center;
+  left: 84px;
+  position: absolute;
+  top: -6px;
+  width: 20px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .number {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .overlap-group {
+  height: 268px;
+  position: relative;
+  width: 1355px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-163 {
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--mercury);
+  height: 268px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-71 {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  left: 839px;
+  position: absolute;
+  top: 17px;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-35 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .kytettviss-oleva {
+  color: var(--black);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .address {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-138 {
+  align-self: stretch;
+  background-color: var(--mercury);
+  height: 46px;
+  min-width: 1px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .kyttraja-kk {
+  color: var(--black);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-107 {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  height: 172px;
+  left: 27px;
+  position: absolute;
+  top: 79px;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-10 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--wild-sand);
+  border-radius: 16px 0px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 16px;
+  position: relative;
+  width: 320px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-38-1 {
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-38-2 {
+  flex-direction: column;
+  gap: 4px;
+  width: 288px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .polttoaineen-mr-s {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 288px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-78 {
+  align-items: flex-start;
+  background-color: var(--lima);
+  border-radius: 6px;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .poista-ilmoitus {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .tilaus-92673934-on-lhetetty {
+  margin-top: -1.00px;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .tilaus-92673934-on-l {
+  width: 288px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .nyt-tilaus {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .tilaa-uusi-maksukortti {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .kortti-xxxx-xxxx-xxx {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 288px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .kortin-xxxx-xxxx-xxx {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 288px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-100 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  left: 31px;
+  position: absolute;
+  top: 16px;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .tervetuloa-takaisin-kimmo {
+  color: var(--black);
+  font-family: var(--font-family-helvetica_neue-light);
+  font-size: var(--font-size-xxl);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-5 {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-5-item {
+  color: var(--black);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-41 {
+  align-items: center;
+  background-color: var(--smalt);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 20px;
+  justify-content: center;
+  position: relative;
+  width: 20px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .flex-row {
+  align-self: center;
+  gap: 16px;
+  height: 547px;
+  margin-left: 17.0px;
+  min-width: 1243px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .flex-col-1 {
+  gap: 44px;
+  min-height: 459px;
+  width: 812px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  height: 202px;
+  min-width: 812px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-6 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 16px 0px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 16px 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-99 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: 366px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-7 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .polttoaineen-ja-ad-bluen-mr {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .group-3 {
+  background-color: var(--white);
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .vector {
+  height: 15px;
+  left: 6px;
+  position: absolute;
+  top: 5px;
+  width: 14px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .osto {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-38-4 {
+  align-self: stretch;
+  gap: 20px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-8 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .neste {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-51 {
+  align-items: flex-start;
+  background-color: var(--mercury);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 216px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-135-1 {
+  background-color: var(--danube);
+  height: 10px;
+  min-width: 26px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-39-5 {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  padding: 2px 0px 0px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-41-1 {
+  align-items: center;
+  background-color: #9f2f2f;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 20px;
+  justify-content: center;
+  position: relative;
+  width: 20px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-9 {
+  align-items: baseline;
+  display: flex;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .text-7 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .litraa {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-100-1 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-5-1 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--mercury);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-135-2 {
+  background-color: var(--danube);
+  height: 10px;
+  min-width: 116px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .text-8 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .litraa-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-14 {
+  background-color: var(--mercury);
+  height: 1px;
+  min-width: 366px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-38-5 {
+  align-self: stretch;
+  gap: 16px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .tilaa-ad-blue-urealiuosta {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .ostokertym {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .ostot-maaliskuu {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-135-3 {
+  background-color: var(--danube);
+  height: 10px;
+  min-width: 280px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-166 {
+  background-color: var(--mine-shaft);
+  height: 44px;
+  left: 257px;
+  position: absolute;
+  top: -4px;
+  width: 2px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .address-2 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .alennus {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .percent {
+  color: var(--lima);
+  font-family: var(--font-family-helvetica_neue-medium);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .nyt-kaikki-hinnat {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .nyt-kaikki-raportit {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-container-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  height: 213px;
+  min-width: 812px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-1-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 16px 0px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 16px;
+  position: relative;
+  width: 260px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-39-1 {
+  align-items: flex-end;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--mercury);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 0px 6px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-39-2 {
+  align-items: flex-end;
+  border-radius: 16px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 228px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .xxe-629 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-132 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .liitetty-kortti {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-131 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: 228px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-8-1 {
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .keskikulutus {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .x54-litraa {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-135-4 {
+  background-color: var(--danube);
+  height: 10px;
+  min-width: 212px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-82 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--wild-sand);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-135 {
+  align-self: stretch;
+  background-color: var(--danube);
+  height: 4px;
+  min-width: 228px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .keskiarvo {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .x58-litraa {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-130 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 159px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .tapahtumat {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-11 {
+  align-items: baseline;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .number-2 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .tankkausta {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .number-3 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .pesua {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .iris-4 {
+  height: 93px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: -51px;
+  width: 180px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .x63-litraa {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-135-5 {
+  background-color: #ffd300;
+  height: 10px;
+  min-width: 228px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-135-6 {
+  background-color: var(--danube);
+  height: 4px;
+  min-width: 208px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .number-4 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .number-5 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .x2ec734cdbf9055c4b20f {
+  height: 102px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: -42px;
+  width: 180px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .xxxx-xxxx-xxxx-7254-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .x52-litraa {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-135-7 {
+  background-color: var(--danube);
+  height: 10px;
+  min-width: 204px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .number-6 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .number-7 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .flex-col-2 {
+  gap: 16px;
+  min-height: 547px;
+  width: 415px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-78-1 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 366px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .maksuvlineet-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-38-6 {
+  gap: 16px;
+  justify-content: center;
+  width: 366px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-81 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-left: -4.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-59 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .number-8 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .maksua {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .neste-ppill {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .address-3 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .price {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-16 {
+  align-self: stretch;
+  background-color: var(--pumice);
+  height: 78px;
+  min-width: 1px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-82-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .number-9 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .neste-kortilla {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .address-4 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-83 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-right: -4.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .number-10 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .muulla-maksukortilla {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .text-1 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-144 {
+  align-self: stretch;
+  background-color: var(--mercury);
+  height: 1px;
+  min-width: 366px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .nyt-kaikki-laskut {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .nyt-kaikki-raportit-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-container-2 {
+  height: 352px;
+  position: relative;
+  width: 415px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-115 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 16px 0px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 0;
+  padding: 10px 16px 16px;
+  position: absolute;
+  top: 0;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .viimeisimmt-tilaukset {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-8-2 {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-36 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .mask-group {
+  height: 70px;
+  min-width: 56px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-39-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .neste-pro-w-ll-iii-0-w-30-47-l {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .voiteluaineet {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-80 {
+  align-items: baseline;
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .mr {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .hinta {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-37 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .address-5 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .price-3 {
+  text-align: right;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .yhteens {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .price-4 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-77 {
+  align-items: flex-start;
+  background-color: var(--lima);
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .x764346-2 {
+  height: 55px;
+  min-width: 56px;
+  object-fit: cover;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .neste-voltera-pro-pss {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .lasinpesunesteet {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .mr-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .hinta-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .address-6 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .price-5 {
+  text-align: right;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .yhteens-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .price-6 {
+  margin-top: -1.00px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-77-1 {
+  align-items: flex-start;
+  background-color: var(--lima);
+  border-radius: 10px 0px 10px 10px;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .tilaa-uudestaan-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-118 {
+  align-items: center;
+  background-color: var(--smalt);
+  border-radius: 10px 0px 10px 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  left: 246px;
+  padding: 20px 26px;
+  position: absolute;
+  top: 175px;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .oma-neste-apuri {
+  color: var(--white);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .address-7 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .flex {
+  align-items: flex-start;
+  display: flex;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-38-7 {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .frame-8-3 {
+  align-self: stretch;
+  display: flex;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .icon {
+  position: absolute;
+  top: 4px;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .keskiarvo-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .keskikulutus-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .liitetty-kortti-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .maksua-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .number-11 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .nyt-kaikki {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .pesua-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .pivit {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .poista-ilmoitus-4 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .price-7 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .rectangle-110-7 {
+  align-self: stretch;
+  background-color: var(--wild-sand);
+  height: 4px;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .tankkausta-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .text {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .tilaa {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .tilaa-polttoainetta-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .tilaus-92673934-on {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .tuotenumero {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .x58-litraa-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .xxe-629-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.kuljetusyrityksen-tyonjohtaja-macbook-air-13-2560-x-1667 .xxxx-xxxx-xxxx {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
