@@ -5,7 +5,7 @@ const LogoutButton = () => {
   const { logout } = useAuth0();
 
   return (
-    <button className="btn" onClick={() => logout({ logoutParams: { returnTo: 'https://12cvonmjp0.execute-api.eu-north-1.amazonaws.com/dev' } })}>
+    <button className="btn" onClick={() => logout({ logoutParams: { returnTo: 'https://2sq3j3h7ub.execute-api.eu-north-1.amazonaws.com/dev/' } })}>
       Log Out
     </button>
   );
