@@ -4,6 +4,7 @@
 }
 
 .chatbox-outer{
+  border-radius: 10px;
   width: 35vw;
   height: 80%;
   position: fixed;
@@ -19,32 +20,35 @@
   top: 0; bottom: 0; left: 0; right: 0;
   color: white;
   border-radius: 10px;
+  padding-bottom: 40px;
 }
 
 .chatbox{
   flex: 1; 
   border-radius: 10px;
-  /* background-color: #343541; */
   position: relative;
+  overflow-y: scroll;
 }
 
 .chat-input-holder{
-  padding: 24px;
   position: absolute;
   left: 0; right: 0;
   bottom: 0;
-  size: 90%;
 }
 
 .chat-input-textarea{
-  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: #F4F4F4;
-  width: 100%;
-  border-radius: 5px;
+  width: 35vw;
+  height: 50px;
   border: none;
   outline: none;
   padding: 12px;
   font-size: 1em;
+  bottom: 90px;
+  right: 15px;
+  position: fixed;
 }
 
 .chat-log{
@@ -52,43 +56,63 @@
 }
 
 .chat-message{
-  background-color: #61BB20;
-  border-radius: 10px;
-  margin: 10px;
+  background-color: #1d55a8;
 }
 
 .chat-message.chatgpt{
   background-color: #003C95;
 }
 
+.chat-message:first-of-type{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  line-height: 30px;
+}
+
 .chat-message-center{
   max-width: 640px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
   padding: 12px;
   padding-left: 24px;
   padding-right: 24px;
+  min-height: 65px;
 }
 
 .avatar{
+  overflow: hidden;
+  margin-right: 15px;
+  float: left;
   background: white;
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  margin-bottom: 5px;
+}
+
+.avatar svg{
+  opacity: 0.6;
+  scale: 0.75;
+  overflow: hidden;
+  position: relative;
+  top: 5px;
 }
 
 .avatar.chatgpt{
-  background-color: rgb(16, 163, 127);
+  background-color: white;
 }
 
-.avatar.chatgpt svg{
-  transform: scale(0.75);
+.avatar.chatgpt img{
+  width: 31px;
+  overflow: hidden;
+  padding-top: 8px;
+  margin-left: 5px;
+  box-sizing: border-box;
 }
 
 .message{
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .App-logo {

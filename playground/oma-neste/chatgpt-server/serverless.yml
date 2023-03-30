@@ -16,6 +16,7 @@ frameworkVersion: '3'
 functions:
   api:
     handler: index.handler
+    timeout: 30
     events:
        - httpApi: 'POST /chat'
        - httpApi: 'POST /chat3'
