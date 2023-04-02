@@ -12,4 +12,4 @@ Turorials, get started guides and project demos/ pocs.
 Calibre server and calibre web for managing and reading ebooks.
 
 ## Links
-- [Notion](https://www.notion.so/team/6c428ed3-735b-47cc-a147-048a352b63dc/join)
+- [A.SPACE on Notion](https://www.notion.so/team/6c428ed3-735b-47cc-a147-048a352b63dc/join)
